@@ -1,14 +1,38 @@
 # fluffy-fishstick
 
-## Fan-favourite Bradley Walsh sound bites (The Chase)
+## The Chase — Bradley Walsh Soundboard 🎵
 
-Based on a quick web search, these are commonly cited fan favourites from Bradley Walsh on *The Chase*:
+A fun soundboard featuring classic Bradley Walsh moments from *The Chase*, styled with the show's signature blue theme.
 
-- **“The Chase is on!”** — one of the show’s signature lines and widely associated with Walsh’s hosting style.  
-  Source: https://en.wikipedia.org/wiki/List_of_catchphrases_in_American_and_British_mass_media
-- **“Set... A... Chase!”** — his well-known call into the Final Chase round.  
-  Source: https://gameshows.fandom.com/wiki/The_Chase/Catchphrases
-- **“If you get caught, you are out. If you get home, you are safe.”** — recurring rules line delivered by Bradley on the show.  
-  Source: https://gameshows.fandom.com/wiki/The_Chase/Catchphrases
-- **His laugh/reactive ad-libs to unexpected contestant answers** (for example moments frequently discussed by viewers and press coverage) are also repeatedly highlighted by fans as iconic “sound bite” moments.  
-  Source: https://www.express.co.uk/showbiz/tv-radio/1972660/itv-the-chase-bradley-walsh-show-secrets
+### How It Works
+
+1. Open `index.html` in a browser
+2. Tap a button to hear the clip
+3. Tap **⏹ Stop** to stop playback
+
+No downloads or setup required — clips stream directly from YouTube in a hidden player.
+
+### Adding New Clips
+
+Add an entry to `sounds.json`:
+```json
+{
+    "id": "my-clip",
+    "label": "My Clip",
+    "videoId": "YOUTUBE_VIDEO_ID",
+    "start": 10,
+    "duration": 5
+}
+```
+- `videoId` — the YouTube video ID (the part after `v=`)
+- `start` — start time in seconds
+- `duration` — how many seconds to play
+
+### Sound Clips
+
+| Button | Clip |
+|--------|------|
+| Fanny Chmelar | Bradley's infamous laughing fit over the name |
+| The Laugh | Classic Bradley Walsh laugh compilation |
+| The Chase Intro | Opening moments from the show |
+| It Is What It Is | Bradley unable to keep a straight face |

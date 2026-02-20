@@ -1,0 +1,30 @@
+[
+    {
+        "id": "fanny-chmelar",
+        "label": "Fanny Chmelar",
+        "videoId": "ctVGRgNt0e8",
+        "start": 18,
+        "duration": 8
+    },
+    {
+        "id": "classic-laugh",
+        "label": "The Laugh",
+        "videoId": "AmDJ8ChMMaw",
+        "start": 5,
+        "duration": 6
+    },
+    {
+        "id": "chase-intro",
+        "label": "The Chase Intro",
+        "videoId": "x06JDQf5CD8",
+        "start": 0,
+        "duration": 5
+    },
+    {
+        "id": "it-is-what-it-is",
+        "label": "It Is What It Is",
+        "videoId": "_CAaBG9RGCk",
+        "start": 3,
+        "duration": 5
+    }
+]
