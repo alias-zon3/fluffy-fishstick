@@ -99,8 +99,28 @@ async function loadSoundboard() {
         }
         const sounds = await response.json();
 
+        const categories = new Map();
         sounds.forEach(sound => {
-            board.appendChild(createButton(sound));
+            const cat = sound.category || "Uncategorised";
+            if (!categories.has(cat)) categories.set(cat, []);
+            categories.get(cat).push(sound);
+        });
+
+        categories.forEach((clips, name) => {
+            const section = document.createElement("section");
+            section.className = "category-section";
+
+            const heading = document.createElement("h2");
+            heading.className = "category-heading";
+            heading.textContent = name;
+            section.appendChild(heading);
+
+            const grid = document.createElement("div");
+            grid.className = "category-grid";
+            clips.forEach(sound => grid.appendChild(createButton(sound)));
+            section.appendChild(grid);
+
+            board.appendChild(section);
         });
 
         loadYouTubeAPI();
