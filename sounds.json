@@ -2,33 +2,29 @@
     {
         "id": "fanny-chmelar",
         "label": "Fanny Chmelar",
-        "file": "assets/fanny-chmelar.mp3",
-        "source": "https://www.youtube.com/watch?v=ctVGRgNt0e8",
-        "start": "0:18",
+        "videoId": "ctVGRgNt0e8",
+        "start": 18,
         "duration": 8
     },
     {
         "id": "classic-laugh",
         "label": "The Laugh",
-        "file": "assets/classic-laugh.mp3",
-        "source": "https://www.youtube.com/watch?v=AmDJ8ChMMaw",
-        "start": "0:05",
+        "videoId": "AmDJ8ChMMaw",
+        "start": 5,
         "duration": 6
     },
     {
         "id": "chase-intro",
         "label": "The Chase Intro",
-        "file": "assets/chase-intro.mp3",
-        "source": "https://www.youtube.com/watch?v=x06JDQf5CD8",
-        "start": "0:00",
+        "videoId": "x06JDQf5CD8",
+        "start": 0,
         "duration": 5
     },
     {
         "id": "it-is-what-it-is",
         "label": "It Is What It Is",
-        "file": "assets/it-is-what-it-is.mp3",
-        "source": "https://www.youtube.com/watch?v=_CAaBG9RGCk",
-        "start": "0:03",
+        "videoId": "_CAaBG9RGCk",
+        "start": 3,
         "duration": 5
     }
 ]
