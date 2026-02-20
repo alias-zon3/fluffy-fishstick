@@ -1,0 +1,34 @@
+[
+    {
+        "id": "fanny-chmelar",
+        "label": "Fanny Chmelar",
+        "file": "assets/fanny-chmelar.mp3",
+        "speech": "Fanny... Chmelar!",
+        "rate": 1.0,
+        "pitch": 1.0
+    },
+    {
+        "id": "classic-laugh",
+        "label": "The Laugh",
+        "file": "assets/classic-laugh.mp3",
+        "speech": "Ha ha ha ha ha ha ha!",
+        "rate": 1.1,
+        "pitch": 1.2
+    },
+    {
+        "id": "chase-intro",
+        "label": "The Chase Intro",
+        "file": "assets/chase-intro.mp3",
+        "speech": "It's time... for The Chase!",
+        "rate": 0.9,
+        "pitch": 1.0
+    },
+    {
+        "id": "it-is-what-it-is",
+        "label": "It Is What It Is",
+        "file": "assets/it-is-what-it-is.mp3",
+        "speech": "It is... what it is.",
+        "rate": 0.95,
+        "pitch": 0.9
+    }
+]
