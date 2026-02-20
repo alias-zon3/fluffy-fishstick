@@ -32,36 +32,36 @@ Add an entry to `sounds.json`:
 
 #### Classic Meltdowns
 
-| Button | Clip |
-|--------|------|
-| Fanny Chmelar | Bradley's infamous laughing fit over the name |
-| Dick Tingeler | Another innuendo-fuelled meltdown |
-| Gobbler's Knob | Geography question gone hilariously wrong |
-| It Is What It Is | Bradley unable to keep a straight face |
+| Button | Clip | Reference | Timestamp |
+|--------|------|-----------|-----------|
+| Fanny Chmelar | Bradley's infamous laughing fit over the name | `ctVGRgNt0e8` | start 35s, duration 12s |
+| Dick Tingeler | Another innuendo-fuelled meltdown | `q5vPUNJ7h8U` | start 3s, duration 10s |
+| Gobbler's Knob | Geography question gone hilariously wrong | `Kx30Bu0e9ks` | start 5s, duration 10s |
+| It Is What It Is | Bradley unable to keep a straight face | `_CAaBG9RGCk` | start 3s, duration 5s |
 
 #### Laughing Fits
 
-| Button | Clip |
-|--------|------|
-| The Laugh | Classic Bradley Walsh laugh compilation |
-| Can't Stop Laughing | Extended laughing breakdown |
-| Bradley In Bits | Recent clip of Bradley losing it on set |
-| Contagious Laughter | Bradley's laughter spreads to everyone |
+| Button | Clip | Reference | Timestamp |
+|--------|------|-----------|-----------|
+| The Laugh | Classic Bradley Walsh laugh compilation | `AmDJ8ChMMaw` | start 5s, duration 8s |
+| Can't Stop Laughing | Extended laughing breakdown | `0vb21cWb5ko` | start 5s, duration 10s |
+| Bradley In Bits | Recent clip of Bradley losing it on set | `OboCsVnuN4s` | start 3s, duration 10s |
+| Contagious Laughter | Bradley's laughter spreads to everyone | `w_ha4ldACCQ` | start 5s, duration 10s |
 
 #### Best Moments
 
-| Button | Clip |
-|--------|------|
-| Top 10 Meltdowns | WatchMojo's countdown of his biggest meltdowns |
-| Funniest Moments | Official highlight reel of classic clips |
-| The Chase Intro | Opening moments from the show |
-| Funniest Bloopers | The best bloopers from The Chase |
+| Button | Clip | Reference | Timestamp |
+|--------|------|-----------|-----------|
+| Top 10 Meltdowns | WatchMojo's countdown of his biggest meltdowns | `JxsBDD854yQ` | start 0s, duration 10s |
+| Funniest Moments | Official highlight reel of classic clips | `uv6IUHVOvyc` | start 5s, duration 10s |
+| The Chase Intro | Opening moments from the show | `x06JDQf5CD8` | start 0s, duration 5s |
+| Funniest Bloopers | The best bloopers from The Chase | `pORqx5oKglk` | start 3s, duration 10s |
 
 #### Fan Favourites
 
-| Button | Clip |
-|--------|------|
-| Funniest Moments Pt 1 | Fan-curated best-of compilation |
-| Best Blooper Moments | Top blooper reel |
-| Bradley's Best Bits | Handpicked highlights |
-| Fanny Meets Bradley | The legendary reunion moment |
+| Button | Clip | Reference | Timestamp |
+|--------|------|-----------|-----------|
+| Funniest Moments Pt 1 | Fan-curated best-of compilation | `gtTuyTF1GYI` | start 3s, duration 10s |
+| Best Blooper Moments | Top blooper reel | `f_WT4B4P568` | start 5s, duration 10s |
+| Bradley's Best Bits | Handpicked highlights | `AX8rlsoDACw` | start 3s, duration 10s |
+| Fanny Meets Bradley | The legendary reunion moment | `pmATC1akaqc` | start 5s, duration 10s |
