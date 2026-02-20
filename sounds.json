@@ -3,32 +3,32 @@
         "id": "fanny-chmelar",
         "label": "Fanny Chmelar",
         "file": "assets/fanny-chmelar.mp3",
-        "speech": "Fanny... Chmelar!",
-        "rate": 1.0,
-        "pitch": 1.0
+        "source": "https://www.youtube.com/watch?v=ctVGRgNt0e8",
+        "start": "0:18",
+        "duration": 8
     },
     {
         "id": "classic-laugh",
         "label": "The Laugh",
         "file": "assets/classic-laugh.mp3",
-        "speech": "Ha ha ha ha ha ha ha!",
-        "rate": 1.1,
-        "pitch": 1.2
+        "source": "https://www.youtube.com/watch?v=AmDJ8ChMMaw",
+        "start": "0:05",
+        "duration": 6
     },
     {
         "id": "chase-intro",
         "label": "The Chase Intro",
         "file": "assets/chase-intro.mp3",
-        "speech": "It's time... for The Chase!",
-        "rate": 0.9,
-        "pitch": 1.0
+        "source": "https://www.youtube.com/watch?v=x06JDQf5CD8",
+        "start": "0:00",
+        "duration": 5
     },
     {
         "id": "it-is-what-it-is",
         "label": "It Is What It Is",
         "file": "assets/it-is-what-it-is.mp3",
-        "speech": "It is... what it is.",
-        "rate": 0.95,
-        "pitch": 0.9
+        "source": "https://www.youtube.com/watch?v=_CAaBG9RGCk",
+        "start": "0:03",
+        "duration": 5
     }
 ]

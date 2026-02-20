@@ -59,6 +59,18 @@ h1 {
     color: var(--bg-color);
 }
 
+.sound-btn.missing {
+    border-color: #ff4444;
+    opacity: 0.5;
+}
+
+.sound-btn.missing .btn-text::after {
+    content: " (missing)";
+    font-size: 0.7rem;
+    display: block;
+    color: #ff4444;
+}
+
 footer {
     margin-top: auto;
     padding: 30px 0;

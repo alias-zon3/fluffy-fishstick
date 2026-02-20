@@ -1,5 +1,4 @@
 let currentAudio = null;
-let currentUtterance = null;
 
 function stopAll() {
     if (currentAudio) {
@@ -7,33 +6,14 @@ function stopAll() {
         currentAudio.currentTime = 0;
         currentAudio = null;
     }
-    if (window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-    }
-    currentUtterance = null;
 }
 
-function speakText(sound) {
+function playSound(filePath, btn) {
     stopAll();
-    const utterance = new SpeechSynthesisUtterance(sound.speech);
-    utterance.rate = sound.rate || 1.0;
-    utterance.pitch = sound.pitch || 1.0;
-    utterance.lang = "en-GB";
-    currentUtterance = utterance;
-    window.speechSynthesis.speak(utterance);
-}
+    currentAudio = new Audio(filePath);
 
-function tryPlayFile(sound) {
-    stopAll();
-    const audio = new Audio(sound.file);
-    currentAudio = audio;
-
-    audio.play().then(() => {
-        // MP3 file played successfully
-    }).catch(() => {
-        // MP3 not available — fall back to Web Speech API
-        currentAudio = null;
-        speakText(sound);
+    currentAudio.play().catch(() => {
+        btn.classList.add("missing");
     });
 }
 
@@ -46,7 +26,7 @@ function createButton(sound) {
     span.textContent = sound.label;
     btn.appendChild(span);
 
-    btn.addEventListener("click", () => tryPlayFile(sound));
+    btn.addEventListener("click", () => playSound(sound.file, btn));
     return btn;
 }
 
